@@ -1,0 +1,1 @@
+WordCloud(document.getElementById('my_canvas'), { list: [['foo', 1000], ['bar', 600]] } );

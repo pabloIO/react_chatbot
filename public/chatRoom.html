@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Chat con Express y Socket.IO</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="{{ url_for('static', filename = 'assets/css/foundation.css') }}">
+	<link rel="stylesheet" href="{{ url_for('static', filename = 'assets/css/styles_message.css') }}">
+	<!-- <link rel="stylesheet" href="../static/assets/css/foundation.css">
+	<link rel="stylesheet" href="../static/assets/css/styles_message.css"> -->
+
+</head>
+<body>
+	<div class="background"></div>
+	<ul class="messages" id="messages">
+		<!-- Para la que un mensaje posea los estilos de alineacion derecham asignar la clase: "message_chatterbot"
+		elemento li -->
+		<!-- <li class="message_chatterbot">
+			<div class="content-span">
+				<span class="userName" style="color: blue">conejita_3.1416: </span>
+				<span class="messageBody" >Mensaje de prueba Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae error praesentium dolorem sequi. Vel libero quidem odio facere accusantium commodi rem quae illum minus incidunt qui, nobis sunt amet suscipit?</span>
+			</div>
+		</li>
+		<li class="message">
+			<div class="content-span">
+				<span class="userName" style="color: red">ctapia</span>
+				<span class="messageBody" >Mensaje de prueba Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam fugiat repudiandae non ducimus facere adipisci exercitationem sunt harum quia, facilis nostrum sequi eveniet inventore quidem eos beatae minima doloremque. Commodi?</span>
+			</div>
+		</li>  -->
+
+	</ul>
+	<form id="chat-form" class="form-chat">
+		<div class="grid-x grid-margin-x">
+			<div class="cell medium-10">
+				<input class="inputMessage" type="text" id="message-text" autocomplete="off" required>
+			</div>
+			<div class="cell medium-2">
+				<button type="submit" class="button button-enviar" >ENVIAR MENSAJE</button>
+			</div>
+		</div>
+	</form>
+	<!-- <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/socket.io/1.3.6/socket.io.min.js"></script> -->
+    <script src="{{ url_for('static', filename = 'assets/js/Config.js') }}"></script>
+    <script src="{{ url_for('static', filename = 'assets/js/localStorage.js') }}"></script>
+	<script src="{{ url_for('static', filename = 'node_modules/socket.io-client/dist/socket.io.js') }}"></script>
+	<script src="{{ url_for('static', filename = 'assets/js/jquery.js') }}"></script>
+	<script src="{{ url_for('static', filename = 'assets/js/background.js') }}"></script>
+	<script src="{{ url_for('static', filename = 'assets/js/localStorage.js') }}"></script>
+	<script src="{{ url_for('static', filename = 'assets/js/SocketChat.js') }}"></script>
+</body>
+</html>

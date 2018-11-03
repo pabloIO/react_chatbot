@@ -1,0 +1,16 @@
+id,question,answer
+1,¿Qué es React?,"React hace que sea fácil crear interfaces de usuario interactivas. Diseñe vistas simples para cada estado en su aplicación, y React actualizará y representará eficientemente los componentes correctos cuando sus datos cambien"
+2,¿Cuales son las caracteristicas de React?,Utiliza el DOM virtual en lugar del DOM real
+3,principales ventajas,"Aumenta el rendimiento de la aplicación. React es fácil de integrar con otros marcos como Meteor, Angular, etc."
+4,las limitaciones de React,"React es solo una biblioteca, no un framework completo. Su biblioteca es muy larga y lleva tiempo comprenderla."
+5,¿Qué es JSX?,JSX es una abreviatura de JavaScript XML. Este es un tipo de archivo utilizado por React que utiliza la expresividad de JavaScript junto con la sintaxis de plantilla HTML. Esto hace que el archivo HTML sea realmente fácil de entender.
+6,¿Qué entiendes por Virtual DOM?,"Un DOM virtual es un objeto ligero de JavaScript que es solo la copia del DOM real. Es un árbol de nodos que enumera los elementos, sus atributos y contenido como objetos y sus propiedades. La función de renderización de React crea un árbol de nodos a partir de los componentes React"
+7,¿Por qué los navegadores no pueden leer JSX?,Los navegadores solo pueden leer objetos de JavaScript. Archivo JSX en un objeto JavaScript usando transformadores JSX como Babel y luego páselo al navegador.
+8,¿Qué tan diferente es la sintaxis de ES6 en comparación con ES5?,import vs require. export vs exports. component and function
+9,¿En qué se diferencia React de Angular?,"1. ARQUITECTURA 2. RENDER 3. DOM 4. DATABINDING 5. DEBUGGING 6. AUTOR
+10,"¿Qué quiere decir con "En React, todo es un componente" ,Los componentes son los componentes básicos de la interfaz de usuario de una aplicación React. Estos componentes dividen la IU completa en pequeñas piezas independientes y reutilizables. Luego, hace que cada uno de estos componentes sea independiente entre sí sin afectar el resto de la interfaz de usuario."
+11,Explique el propósito de render ().,Cada componente React debe tener un render( ) obligatoriamente. Devuelve un único elemento React que es la representación del componente DOM nativo.
+12,¿Qué es un estado en React?,"Los estados son el corazón de los componentes de React. Los estados son la fuente de datos y deben ser lo más simples posible. Básicamente, los estados son los objetos que determinan los componentes y el comportamiento. Son mutables a diferencia de los accesorios y crean componentes dinámicos e interactivos. Se accede a través de this.state ()."
+13,¿Qué es la función de flecha? ,Las funciones de flecha son más de una sintaxis para escribir la expresión de función. También se les llama 'flecha gorda' (=>) las funciones. Estas funciones permiten vincular el contexto de los componentes correctamente ya que en ES6. Las funciones de flecha son en su mayoría útiles mientras se trabaja con las funciones de orden superior.
+14,¿Qué es un evento?,"En Reaccionar, deslizar el mouse, hacer clic con el mouse, presionar teclas, etc. Estos temas son similares a manejar eventos en elementos DOM"
+15,¿Qué entiendes por refs?,"Refs es la mano corta para Referencias en Reaccionar. Reactuar elemento o componente, que desea ser devuelto por la función de configuración de procesamiento de componentes."
